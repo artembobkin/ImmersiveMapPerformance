@@ -1,0 +1,23 @@
+.DS_Store
+# AI assistant configuration and instructions: local tooling, not part of the bench.
+.claude/
+CLAUDE.md
+/DerivedData/
+DerivedData/
+/.build/
+/.swiftpm/
+**/xcuserdata/
+*.xcuserstate
+*.xcresult
+*.ipa
+*.dSYM
+*.dSYM.zip
+__pycache__/
+# The Mapbox access token, read by MapboxBench. Never committed.
+/LocalSecrets.plist
+# Bench runs: per-machine numbers, regenerated on demand.
+/Output/
+# Metal System Trace recordings and their XML exports: large and machine specific.
+/Traces/
+# Write-ups of past passes: working notes, not documentation.
+/Notes/
